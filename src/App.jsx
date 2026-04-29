@@ -70,6 +70,19 @@ function App() {
             </div>
           </div>
         </section>
+
+        <section id="about" className="about-section animate-fade-in delay-400">
+          <div className="container about-container">
+            <div className="about-image-wrapper">
+              <img src="/truffle_dark_gold.png" alt="Our artisan chocolate" className="about-image" />
+            </div>
+            <div className="about-text">
+              <h2>Our Story</h2>
+              <p>Founded with a passion for exceptional cacao, Luxe Truffles began as a small artisan kitchen. We believe that chocolate is not just a treat, but an experience to be savored.</p>
+              <p>Every truffle is meticulously handcrafted by our master chocolatiers using sustainably sourced ingredients from the world's finest regions. From our signature dark ganache to innovative flavor pairings, we pour art and soul into every bite.</p>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer className="footer">
