@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import truffleImg from './assets/truffle_dark_gold.png'
 import './App.css'
 
 function App() {
   const [cartCount, setCartCount] = useState(0)
 
   const truffles = [
-    { id: 1, name: 'Signature Gold', desc: 'Dark chocolate ganache with edible gold leaf', price: '$4.50', img: '/truffle_dark_gold.png' },
+    { id: 1, name: 'Signature Gold', desc: 'Dark chocolate ganache with edible gold leaf', price: '$4.50', img: truffleImg },
     { id: 2, name: 'Raspberry Noir', desc: 'Dark chocolate dusted with tart raspberry powder', price: '$4.00', img: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Raspberry_chocolate_truffle_from_Mary_Ann%27s_Chocolates_Dessert%2C_March_2011.jpg' },
     { id: 3, name: 'Hazelnut Praline', desc: 'Milk chocolate shell with roasted hazelnut center', price: '$4.00', img: 'https://upload.wikimedia.org/wikipedia/commons/7/7f/Truffles_with_nuts_and_chocolate_dusting_in_detail.jpg' }
   ]
@@ -40,7 +41,7 @@ function App() {
               </div>
             </div>
             <div className="hero-image-wrapper">
-               <img src="/truffle_dark_gold.png" alt="Signature Gold Truffle" className="hero-image" />
+               <img src={truffleImg} alt="Signature Gold Truffle" className="hero-image" />
             </div>
           </div>
         </section>
@@ -74,7 +75,7 @@ function App() {
         <section id="about" className="about-section animate-fade-in delay-400">
           <div className="container about-container">
             <div className="about-image-wrapper">
-              <img src="/truffle_dark_gold.png" alt="Our artisan chocolate" className="about-image" />
+              <img src={truffleImg} alt="Our artisan chocolate" className="about-image" />
             </div>
             <div className="about-text">
               <h2>Our Story</h2>
