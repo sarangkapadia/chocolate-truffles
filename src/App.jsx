@@ -6,8 +6,8 @@ function App() {
 
   const truffles = [
     { id: 1, name: 'Signature Gold', desc: 'Dark chocolate ganache with edible gold leaf', price: '$4.50', img: '/truffle_dark_gold.png' },
-    { id: 2, name: 'Raspberry Noir', desc: 'Dark chocolate dusted with tart raspberry powder', price: '$4.00', img: '/truffle_dark_gold.png' },
-    { id: 3, name: 'Hazelnut Praline', desc: 'Milk chocolate shell with roasted hazelnut center', price: '$4.00', img: '/truffle_dark_gold.png' }
+    { id: 2, name: 'Raspberry Noir', desc: 'Dark chocolate dusted with tart raspberry powder', price: '$4.00', img: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Raspberry_chocolate_truffle_from_Mary_Ann%27s_Chocolates_Dessert%2C_March_2011.jpg' },
+    { id: 3, name: 'Hazelnut Praline', desc: 'Milk chocolate shell with roasted hazelnut center', price: '$4.00', img: 'https://upload.wikimedia.org/wikipedia/commons/7/7f/Truffles_with_nuts_and_chocolate_dusting_in_detail.jpg' }
   ]
 
   return (
